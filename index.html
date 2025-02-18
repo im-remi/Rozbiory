@@ -21,7 +21,7 @@
     <!-- Description Section -->
     <div class="description">
       <h1>Witamy na stronie o rozbiorach Polski</h1>
-      <p>po ludzku</p>
+      <p>Odkryj fascynującą historię, która zmieniła losy Polski. Poznaj przyczyny, przebieg oraz skutki rozbiorów, a także ciekawostki, które rzucają nowe światło na te dramatyczne wydarzenia.</p>
     </div>
 
     <!-- Image Row -->
@@ -40,10 +40,10 @@
       </a>
     </div>
 
-    <!-- Additional Section -->
+    <!-- Additional Section: Random Fact -->
     <div class="additional-section">
       <h2>Aktualności i ciekawostki</h2>
-      <p>po ludzku</p>
+      <p id="randomFact">Ładowanie ciekawostki...</p>
     </div>
   </div>
   
@@ -51,5 +51,17 @@
   <div class="footer">
     &copy; 2025 Remi. Wszelkie prawa zastrzeżone.
   </div>
+
+  <script>
+    const facts = [
+      "Ciekawostka: I rozbiór Polski w 1772 roku był pierwszym z trzech rozbiorów, zapoczątkowując okres zaborów, który trwał ponad 120 lat.",
+      "Ciekawostka: Konstytucja 3 Maja z 1791 roku była jedną z pierwszych nowoczesnych konstytucji na świecie, ale mimo to przyczyniła się do destabilizacji państwa.",
+      "Ciekawostka: II rozbiór Polski w 1793 roku znacząco ograniczył terytorium kraju, przejmując przez Rosję tereny wschodnie, a przez Prusy – ziemie centralne i zachodnie.",
+      "Ciekawostka: III rozbiór Polski w 1795 roku oznaczał definitywne wymazanie państwa z mapy Europy, a abdykacja króla stanowiła symboliczny koniec niepodległości.",
+      "Ciekawostka: Pomimo rozbiorów, duch narodowy Polaków przetrwał, co umożliwiło odzyskanie niepodległości w 1918 roku i kształtowanie nowoczesnej Polski."
+    ];
+    const randomIndex = Math.floor(Math.random() * facts.length);
+    document.getElementById('randomFact').innerText = facts[randomIndex];
+  </script>
 </body>
 </html>

@@ -14,7 +14,6 @@
     body {
       font-family: 'Montserrat', sans-serif;
       background: linear-gradient(135deg, #4d0000, #a00000);
-
       color: #fff;
       line-height: 1.6;
     }
@@ -53,7 +52,6 @@
       opacity: 0;
       animation: fadeInUp 0.8s ease forwards;
     }
-    /* Blog post styling */
     .post {
       margin-bottom: 40px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -72,6 +70,14 @@
     }
     .post p {
       font-size: 1.1em;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+    .post ul {
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+    .post ul li {
       margin-bottom: 10px;
     }
     .post img {
@@ -83,7 +89,6 @@
     .post img:hover {
       transform: scale(1.05);
     }
-    /* Footer styling */
     .footer {
       text-align: center;
       padding: 10px 0;
@@ -95,7 +100,6 @@
       animation: fadeInUp 1s ease forwards;
       animation-delay: 0.5s;
     }
-    /* Kluczowe ramki animacji */
     @keyframes fadeInUp {
       from {
         opacity: 0;
@@ -114,12 +118,14 @@
         opacity: 1;
       }
     }
-    /* Dodanie opóźnień dla kolejnych wpisów */
     .container .post:nth-of-type(1) {
       animation-delay: 0.3s;
     }
     .container .post:nth-of-type(2) {
       animation-delay: 0.6s;
+    }
+    .container .post:nth-of-type(3) {
+      animation-delay: 0.9s;
     }
   </style>
 </head>
@@ -134,16 +140,68 @@
   
   <div class="container">
     <h1>III Rozbiór Polski</h1>
+    
+    <!-- Geneza i tło historyczne -->
     <div class="post">
       <h2>Geneza i tło historyczne</h2>
-      <p>po ludzku</p>
-      <img src="images/rozbior1_detail.jpg" alt="Geneza I Rozbioru">
+      <p>
+        Trzeci rozbiór Polski w 1795 roku był kulminacją długotrwałego procesu upadku Rzeczypospolitej, który rozpoczął się od wewnętrznych sporów, rozbicia władzy oraz dramatycznej porażki Insurekcji Kościuszkowskiej w 1794 roku. Po nieudanym powstaniu, naród utracił zdolność do skutecznego oporu, a polityczna anarchia stała się pretekstem dla trzech sąsiednich mocarstw, by ostatecznie zlikwidować istnienie niepodległego państwa.
+      </p>
+      <p>
+        W obliczu głębokich podziałów wewnętrznych, braku silnej centralnej władzy oraz kryzysu gospodarczego, Rosja, Prusy i Austria wykorzystały słabość Rzeczypospolitej, decydując, że dalsze istnienie państwa jest niemożliwe. Decyzja ta była wynikiem wieloletnich intryg dyplomatycznych oraz militarnych nacisków, które stopniowo wyprasowały Polskę z europejskiej sceny politycznej.
+      </p>
+      <ul>
+        <li><b>Upadek Insurekcji Kościuszkowskiej:</b> Porażka powstania w 1794 roku osłabiła ducha narodowego i pokazała brak jedności w obliczu zagrożenia.</li>
+        <li><b>Polityczna anarchia:</b> Dominacja liberum veto oraz wewnętrzne konflikty rozbiły struktury państwowe, czyniąc kraj łatwym łupem dla agresorów.</li>
+        <li><b>Decyzja zaborców:</b> Wykorzystując kryzys, Rosja, Prusy i Austria postanowiły ostatecznie podzielić resztki ziem polskich między siebie.</li>
+      </ul>
+      <p>
+        Te czynniki sprawiły, że III rozbiór stał się nieunikniony, a granice historycznej Polski zostały na zawsze wymazane z mapy Europy.
+      </p>
+      <img src="images/rozbior3_detail.jpg" alt="Geneza III Rozbióru">
     </div>
+    
+    <!-- Najważniejsze wydarzenia -->
+    <div class="post">
+      <h2>Najważniejsze wydarzenia</h2>
+      <p>
+        Kluczowym momentem III rozbioru była finalizacja traktatu rozbiorowego w 1795 roku, który szczegółowo określił nowy podział ziem Rzeczypospolitej. W wyniku negocjacji i presji międzynarodowej, terytorium Polski zostało podzielone między trzy mocarstwa, co formalnie zakończyło istnienie niepodległego państwa.
+      </p>
+      <p>
+        Traktat przewidywał podział resztek terytorialnych Polski według następujących zasad:
+      </p>
+      <ul>
+        <li><b>Rosja:</b> Uzyskała największą część dawnych ziem polskich – wschodnie tereny, obejmujące dzisiejsze obszary Białorusi, części Ukrainy (m.in. Wołyń, Podole) oraz fragmenty historycznej Litwy. To właśnie te tereny stały się strategicznym buforem dla caratu, umacniając jego pozycję w regionie.</li>
+        <li><b>Prusy:</b> Przejęły ziemie centralne, w tym obszary Wielkopolski i Mazowsza. Dzięki temu zyskały dostęp do regionów rolniczych oraz rozwijającej się infrastruktury, co miało kluczowe znaczenie dla ich późniejszego rozwoju przemysłowego.</li>
+        <li><b>Austria:</b> Zdobycze austriackie obejmowały południowe tereny, przede wszystkim Galicję, w tym historyczne regiony Małopolski, Krakowa i Lwowa, a także część Podola. Te obszary stały się fundamentem nowej administracji oraz centrum życia kulturalnego w ramach Cesarstwa Austriackiego.</li>
+      </ul>
+      <p>
+        Abdykacja króla Stanisława Augusta Poniatowskiego, wymuszona przez militarny i dyplomatyczny nacisk zaborców, symbolicznie zamknęła ostatni rozdział niezależnej historii Polski.
+      </p>
+      <img src="images/rozbior3_mapa.jpg" alt="Mapa III Rozbióru">
+    </div>
+    
+    <!-- Konsekwencje społeczne i kulturowe -->
     <div class="post">
       <h2>Konsekwencje społeczne i kulturowe</h2>
-      <p>po ludzku</p>
-      <img src="images/rozbior1_detail2.jpg" alt="Konsekwencje I Rozbioru">
+      <p>
+        Rozbiór Polski w 1795 roku miał katastrofalne skutki dla całego narodu. Utrata państwowości nie tylko wymazała suwerenność, ale również doprowadziła do głębokiego kryzysu tożsamości narodowej i kulturowej.
+      </p>
+      <p>
+        W wyniku podziału, zaborcy wprowadzili polityki asymilacyjne, mające na celu wynarodowienie Polaków. Germanizacja, rusyfikacja oraz austriackie reformy administracyjne narzuciły nowe granice nie tylko terytorialne, ale i kulturowe.
+      </p>
+      <ul>
+        <li><b>Całkowita utrata państwowości:</b> Polska przestała istnieć jako niezależne państwo, co wpłynęło na poczucie bezsilności oraz rozbicie tradycyjnych struktur społecznych.</li>
+        <li><b>Intensywna germanizacja i rusyfikacja:</b> W rosyjskich i pruskich zaborach wprowadzono zakazy używania języka polskiego w szkołach i urzędach, a system edukacyjny został przystosowany do obcych wzorców.</li>
+        <li><b>Represje i prześladowania:</b> Działacze patriotyczni oraz wszelkie przejawy oporu były surowo karane, co pogłębiało społeczne podziały i traumę narodową.</li>
+        <li><b>Dziedzictwo oporu:</b> Mimo represji, duch walki o niepodległość przetrwał – w podziemnych organizacjach zaczęły kiełkować idee, które później stanowiły fundament dla odzyskania wolności.</li>
+      </ul>
+      <p>
+        Długotrwałe skutki rozbioru wpływały na życie codzienne, kulturę oraz edukację. Nawet dziś pamięć o utracie niepodległości mobilizuje kolejne pokolenia do pielęgnowania polskiej tożsamości i tradycji.
+      </p>
+      <img src="images/rozbior3_detail2.jpg" alt="Konsekwencje III Rozbióru">
     </div>
+    
   </div>
   
   <!-- Footer -->

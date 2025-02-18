@@ -14,7 +14,6 @@
     body {
       font-family: 'Montserrat', sans-serif;
       background: linear-gradient(135deg, #800000, #c04040);
-
       color: #fff;
       line-height: 1.6;
     }
@@ -53,7 +52,6 @@
       opacity: 0;
       animation: fadeInUp 0.8s ease forwards;
     }
-    /* Blog post styling */
     .post {
       margin-bottom: 40px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -72,6 +70,14 @@
     }
     .post p {
       font-size: 1.1em;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+    .post ul {
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+    .post ul li {
       margin-bottom: 10px;
     }
     .post img {
@@ -83,7 +89,6 @@
     .post img:hover {
       transform: scale(1.05);
     }
-    /* Footer styling */
     .footer {
       text-align: center;
       padding: 10px 0;
@@ -95,7 +100,6 @@
       animation: fadeInUp 1s ease forwards;
       animation-delay: 0.5s;
     }
-    /* Kluczowe ramki animacji */
     @keyframes fadeInUp {
       from {
         opacity: 0;
@@ -114,12 +118,14 @@
         opacity: 1;
       }
     }
-    /* Dodanie opóźnień dla kolejnych wpisów */
     .container .post:nth-of-type(1) {
       animation-delay: 0.3s;
     }
     .container .post:nth-of-type(2) {
       animation-delay: 0.6s;
+    }
+    .container .post:nth-of-type(3) {
+      animation-delay: 0.9s;
     }
   </style>
 </head>
@@ -134,16 +140,68 @@
   
   <div class="container">
     <h1>II Rozbiór Polski</h1>
+    
+    <!-- Geneza i tło historyczne -->
     <div class="post">
       <h2>Geneza i tło historyczne</h2>
-      <p>po ludzku</p>
-      <img src="images/rozbior1_detail.jpg" alt="Geneza I Rozbioru">
+      <p>
+        Drugi rozbiór Polski, przeprowadzony w 1793 roku, był rezultatem skomplikowanego splotu wewnętrznych kryzysów oraz zewnętrznych ambicji imperialnych. Po uchwaleniu Konstytucji 3 Maja w 1791 roku, która miała na celu modernizację i wzmocnienie państwa, doszło do głębokich podziałów wśród szlachty. Reformy te, choć nowatorskie, budziły lęk przed utratą tradycyjnych przywilejów, co zaowocowało powstaniem Konfederacji Targowickiej.
+      </p>
+      <p>
+        Konflikty wewnętrzne i polityczna anarchia osłabiły Rzeczpospolitą, czyniąc ją łatwym celem dla ambicji dwóch potężnych sąsiadów – Rosji i Prus. Oba mocarstwa, mające swoje własne plany ekspansjonistyczne, widziały w upadku wewnętrznej jedności Polski szansę do realizacji własnych interesów.
+      </p>
+      <ul>
+        <li><b>Konstytucja 3 Maja:</b> Próba modernizacji państwa, która mimo szlachetnych intencji, wywołała opór konserwatywnych elit obawiających się utraty władzy.</li>
+        <li><b>Konfederacja Targowicka:</b> Sojusz przeciwników reform, który umożliwił Rosji i Prusom interwencję militarną, argumentując, że reforma zagrażała tradycyjnemu porządkowi.</li>
+        <li><b>Rozdrobnienie polityczne:</b> Wejście w życie zasady liberum veto oraz ciągłe konflikty wewnętrzne sprawiły, że decyzje podejmowane przez sejm były paraliżowane, co skutkowało brakiem spójnej strategii obronnej.</li>
+      </ul>
+      <p>
+        W efekcie, zamiast wzmocnienia, Polska znalazła się w stanie kryzysu, a jej słabość stała się zaproszeniem do interwencji ze strony mocarstw, które szybko zaczęły realizować swoje plany ekspansji kosztem narodowej suwerenności.
+      </p>
+      <img src="images/rozbior2_detail.jpg" alt="Geneza II Rozbióru">
     </div>
+    
+    <!-- Przebieg II Rozbióru i Insurekcja Kościuszkowska -->
     <div class="post">
-      <h2>Konsekwencje społeczne i kulturowe</h2>
-      <p>po ludzku</p>
-      <img src="images/rozbior1_detail2.jpg" alt="Konsekwencje I Rozbioru">
+      <h2>Przebieg II Rozbióru i Insurekcja Kościuszkowska</h2>
+      <p>
+        W 1793 roku, pod presją militarną oraz polityczną, Rosja i Prusy podpisały traktat rozbiorowy, który wyznaczył nowe granice Rzeczypospolitej. Traktat ten, choć formalny, był brutalnym ciosem dla narodowej suwerenności – na mocy porozumienia, Polska utraciła znaczną część swojego terytorium.
+      </p>
+      <p>
+        W wyniku drugiego rozbioru, Rosja przejęła rozległe tereny na wschodzie, obejmujące między innymi obszary dzisiejszej Białorusi oraz części Ukrainy. Prusy natomiast dokonały aneksji ziem leżących na zachodzie, w tym kluczowych regionów Wielkopolski i części Mazowsza. Podział terytorialny znacząco osłabił struktury administracyjne państwa.
+      </p>
+      <ul>
+        <li><b>Terrytorialne skutki:</b> Rosja zajęła ziemie rozciągające się od Dźwiny po Berezynę, a Prusy anektowały regiony centralne i zachodnie, co zmieniło układ sił w Europie Środkowej.</li>
+        <li><b>Traktat rozbiorowy:</b> Dokument ten formalizował podział ziem, stanowiąc jednocześnie argument dla dalszych interwencji i ingerencji zaborczych mocarstw.</li>
+        <li><b>Insurekcja Kościuszkowska (1794):</b> W odpowiedzi na coraz większe zagrożenie dla niepodległości narodził się narodowy zryw pod wodzą Tadeusza Kościuszki. Mimo początkowych sukcesów, powstanie nie było w stanie przeciwstawić się przewadze militarnej zaborców.</li>
+      </ul>
+      <p>
+        Insurekcja, będąca symbolicznym aktem oporu, pokazała determinację Polaków w walce o wolność, jednak brak jedności i wsparcia międzynarodowego sprawił, że upadek państwa stał się nieunikniony.
+      </p>
+      <img src="images/rozbior2_mapa.jpg" alt="Mapa II Rozbióru">
     </div>
+    
+    <!-- Konsekwencje społeczne, kulturowe i ekonomiczne -->
+    <div class="post">
+      <h2>Konsekwencje społeczne, kulturowe i ekonomiczne</h2>
+      <p>
+        Drugi rozbiór Polski miał długotrwałe, tragiczne skutki dla narodu. Nowo wyznaczone granice nie tylko rozdzieliły ziemie ojczyste, ale także spowodowały głębokie zmiany w strukturach społecznych, ekonomicznych oraz kulturowych.
+      </p>
+      <p>
+        Zmiana przyniosła ze sobą masowe przesiedlenia – setki tysięcy Polaków zostało zmuszonych do opuszczenia swoich rodzinnych terenów, co rozbiło tradycyjne wspólnoty. Nowe władze zaborcze wprowadziły restrykcyjne reformy, mające na celu asymilację ludności i eliminację polskiej tożsamości.
+      </p>
+      <ul>
+        <li><b>Przesiedlenia i zmiany demograficzne:</b> Aneksja ziem przez Rosję i Prusy zmieniła strukturę ludnościową regionu – ludność była przesiedlana, a granice administracyjne drastycznie różniły się od dawnych tradycji.</li>
+        <li><b>Kryzys gospodarczy:</b> Wojny, destabilizacja oraz ograniczony dostęp do zasobów naturalnych przyczyniły się do spadku produkcji rolniczej i zahamowania rozwoju handlu. Zmiany te doprowadziły do długotrwałego kryzysu ekonomicznego.</li>
+        <li><b>Represje kulturowe:</b> Wprowadzane przez rosyjskie i pruskie władze reformy miały na celu germanizację i rusyfikację. Zakazy używania języka polskiego w szkołach, urzędach oraz mediach, a także przymusowe zmiany systemów edukacyjnych, skutkowały erozją tradycyjnej tożsamości narodowej.</li>
+        <li><b>Długotrwałe skutki społeczne:</b> Upadek państwowości, rozbicie struktur społecznych oraz traumatyczne doświadczenia związane z utratą niepodległości wpłynęły na pokolenia Polaków, budząc jednocześnie determinację do późniejszej walki o odzyskanie wolności.</li>
+      </ul>
+      <p>
+        Pamięć o II rozbiorze, mimo upływu lat, wciąż budzi dumę i jest przypomnieniem o trudnej historii, która stała się fundamentem późniejszych dążeń niepodległościowych. Dla wielu Polaków te wydarzenia są symbolem nie tylko utraty suwerenności, ale również nadziei, która w końcu zaowocowała odbudową państwa.
+      </p>
+      <img src="images/rozbior2_detail2.jpg" alt="Konsekwencje II Rozbióru">
+    </div>
+    
   </div>
   
   <!-- Footer -->
